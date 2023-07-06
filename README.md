@@ -35,4 +35,13 @@ ___
 - TotalCharges - the total amount charged to the customer.
 - Churn - whether the customer churned or not (Yes, No).
 
-**NOTE**: Project in progress more info will be added to the README file as the work gets going.
+This repo contains my solution to the `Churn` data project, the repo contains the dataset for the project and also my solution notebook. In the notebook, I unwrangled my data, did data cleaning and showed some visualization and also built a model to predict if the customer 'Churn' or not.
+
+The algorithm used to build my model is the LogisticRegression algorithm. With this algorithm, I was able to achieve the following metrics:
+- Accuracy: 77%
+- Precision: 89%
+- Recall: 79%
+- F1_score: 84%
+
+
+This ends my model building on this project maybe for now, I move to learning how to deploy my models.
