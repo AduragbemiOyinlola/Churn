@@ -2,11 +2,11 @@
 
 ## **INTRODUCTION**
 
-The dataset contains information about seven thousand and forty-three(7,043) customers and twenty-one(21) features describing themselves and the service the telecom company provided them.
+The dataset contains information about seven thousand forty-three(7,043) customers and twenty-one(21) features describing themselves and the service the telecom company provided them.
 
 The dataset in this notebook includes information about
 - Customers who left the last month - the column is called Churn.
-- Services that each customer has signed up for - phone, multiple line, internet, online security, online backup, device protection, tech support, and streaming TV and movies.
+- Services that each customer has signed up for - phone, multiple lines, internet, online security, online backup, device protection, tech support, and streaming TV and movies.
 - Customer account information - how long they've been a customer, contract, payment method, paperless billing, monthly charges, and total charges.
 - Demographic info about customers - gender and if they have partners and dependents.
 
@@ -23,11 +23,11 @@ ___
 - MultipleLines - whether the customer has multiple lines or not.
 - InternetService - customer's internet service provider(DSL, Fiber optic, No).
 - OnlineSecurity - whether the customer has online security or not (Yes, No, No internet service).
-- OnlineBackup - whether the customer has online backup or not (Yes, No, No internet service).
-- DeviceProtection - whether the customer has device protection or not (Yes, No, No internet service).
+- OnlineBackup - whether the customer has online backup or not (Yes, No, No Internet service).
+- DeviceProtection - whether the customer has device protection or not (Yes, No, No Internet Service).
 - TechSupport - whether the customer has tech support or not (Yes, No, No internet service).
 - StreamingTV - whether the customer has streaming TV or not (Yes, No, No internet service).
-- StreamingMovies - whether the customer has streaming movies or not (Yes, No, No internet service).
+- StreamingMovies - whether the customer has streaming movies or not (Yes, No, No Internet Service).
 - Contract - The contract term of the customer (Month-to-month, One year, Two years).
 - PaperlessBilling - whether the customer has paperless billing or not (Yes, No).
 - PaymentMethod - the customer's payment method (Electronic check, Mailed check, Bank transfer (automatic), Credit card (automatic))
@@ -35,7 +35,7 @@ ___
 - TotalCharges - the total amount charged to the customer.
 - Churn - whether the customer churned or not (Yes, No).
 
-This repo contains my solution to the `Churn` data project, the repo contains the dataset for the project, and also my solution notebook. In the notebook, I unwrangled my data, did data cleaning, and showed some visualization, and also built a model to predict if the customer 'Churn' or not.
+This repo contains my solution to the `Churn` data project, the repo contains dataset for the project, and also my solution notebook. In the notebook, I wrangled my data, did data cleaning, showed some visualization, and also built a model to predict whether the customer 'Churn' or not.
 
 The algorithm used to build my model is the LogisticRegression algorithm. With this algorithm, I was able to achieve the following metrics:
 - Accuracy: 77%
