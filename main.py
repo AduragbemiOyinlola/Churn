@@ -44,3 +44,6 @@ contract = 2 if contract == 'Two year' else 1 if contract == 'One year' else 0
 paperlessbilling = 1 if paperlessbilling == 'Yes' else 0
 paymentmethod = 3 if paymentmethod == 'Mailed check' else 2 if paymentmethod == 'Electronic check' else 1 if paymentmethod == 'Credit card (automatic)' else 0
 
+# Create input array for the model
+input_data = np.array([[gender, seniorcitizen, partner, dependents, tenure, phoneservice, multiplelines, internetservice, onlinesecurity, onlinebackup, deviceprotection, techsupport, streamingtv, streamingmovies, contract, paperlessbilling, paymentmethod, monthlycharges, totalcharges]])
+
