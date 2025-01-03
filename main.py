@@ -52,9 +52,11 @@ paymentmethod = 3 if paymentmethod == 'Mailed check' else 2 if paymentmethod == 
 # Create input array for the model
 input_data = np.array([[gender, seniorcitizen, partner, dependents, tenure, phoneservice, multiplelines, internetservice, onlinesecurity, onlinebackup, deviceprotection, techsupport, streamingtv, streamingmovies, contract, paperlessbilling, paymentmethod, monthlycharges, totalcharges]])
 
-# Make prediction
-prediction = model.predict(input_data)
+# Add a predict button
+if st.button('Predict'):
+    # Make prediction
+    prediction = model.predict(input_data)
 
-# Display the churn status
-churn_status = 'Churned' if prediction == 1 else 'Not Churned'
-st.sidebar.write(f"Customer Churn Status: {churn_status}")
+    # Display the churn status
+    churn_status = 'Churned' if prediction == 1 else 'Not Churned'
+    st.sidebar.write(f"Customer Churn Status: {churn_status}")
