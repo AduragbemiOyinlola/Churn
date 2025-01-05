@@ -60,4 +60,4 @@ if st.button('Predict'):
 
     # Display the churn status
     churn_status = 'Churned' if prediction == 1 else 'Not Churned'
-    st.sidebar.write(f"Customer Churn Status: {churn_status}")
+    st.write(f"Customer Churn Status: {churn_status}")
